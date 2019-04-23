@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<title>Som</title>
+	<script>
+    function PlaySound(melody) {
+        alert("On Press of "+melody);
+        var path = "path\\to\\melody\\"
+        var snd = new Audio(path + melody + ".mp3");
+        snd.play();
+    }
+
+
+</script>
+      
+<style>
+	
+*{
+	box-sizing: border-box;
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+	background: #1B3547;
+	font-family: 'Roboto Condensed', sans-serif
+}
+
+
+ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+ul li{
+	list-style: none;
+	margin: 0 40px;
+	transition: 0.5s;
+}
+
+ul li{
+	display: block;
+	position: relative;
+	padding: 5px
+	font-size: 18px;
+	font-family: sans-serif;
+	color: white;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+ul:hover li {
+	transform: scale(1.3);
+	opacity: 0.2;
+	filter: blur(1px);
+}
+
+ul li:hover {
+	transform: scale(2);
+	opacity: 1;
+	filter: blur(0);
+	cursor: pointer;
+}
+
+button.one{
+	border-style: none;
+	height: 25px;
+	width: 60px;
+	background-color: none;
+}
+
+
+button.one:hover{
+	border-style: hidden;
+	color: black;
+	background: pink;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+
+.container{
+	
+	position: absolute;
+	margin-top: 80px;
+}
+
+
+.text{
+	margin: 5px;
+	padding: 0;
+	margin-top: 200px;
+	width: 60%;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+}
+
+h1{
+	font-size: 20px;
+	color: pink;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+	color: white;
+	
+}
+
+
+}
+	
+</style>
+
+
+</head>
+
+<body>
+<ul>
+	<li ><audio id="som1" src="som1(continuidade e descontinuidade-semantica experimental).mp3"></audio> 
+        <button class="one" onclick="document.getElementById('som1').play()">SOM1</button></li>
+	<li ><audio id="som2" src="som2(continuidade-semântica âmbiental).mp3"></audio> 
+        <button class="one" onclick="document.getElementById('som2').play()">SOM2</button></li>
+	<li ><audio id="som3" src="som3(continuidade- semântica informacional).mp3"></audio> 
+        <button class="one" onclick="document.getElementById('som3').play()">SOM3</button></li>
+	<li ><audio id="som4" src="som4(continuidade e semantica informacional).mp3"></audio> 
+        <button class="one" onclick="document.getElementById('som4').play()">SOM4</button></li>
+	<li ><audio id="som5" src="som5(descontinuidade-semântica expressiva).mp3"></audio> 
+        <button class="one" onclick="document.getElementById('som5').play()">SOM5</button></li>
+	<li ><audio id="som6" src="som6(descontinuidade- semântica expressiva e continuidade-semântica ambiental).mp3"></audio> 
+        <button class="one" onclick="document.getElementById('som6').play()">SOM6</button></li>
+	<li ><audio id="som7" src="som7(continuidade-semântoca ambiental).mp3"></audio> 
+        <button class="one" onclick="document.getElementById('som7').play()">SOM7</button></li>
+
+</ul>
+
+
+<div class="text">
+
+<h1>Som1</h1>
+<p>Esta faixa poderá ser dividida em duas partes, de acordo com os critérios de avaliação de continuidade e descontinuidade.
+Numa primeira parte, o som prevalece de forma descontínua ambivalente, com intensidade moderada, que em cetos pontos, se revela um pouco mais intensa, de forma a captar a atenção do ouvinte e, por isso, a semântica predominante é expressiva, pois o foco é a ação que está a decorrer.
+Por outro lado, na segunda parte, a descontinuidade parece difundir-se gradualmente com a continuidade. No final do segmento, este é apenas contínuo. Por isso, logicamente, a continuidade passa de progressiva para estável.
+Existe um som “artesanal” que toma o lugar de som ambiente, misturando-se com outro de uma máquina que, em conjunto, formam a semântica ambiental, pois existe um foco sobre o ambiente em que a ação se passa.
+</p><br>
+
+<h1>Som2</h1>
+<p>É caracterizada pela sua continuidade estável e pela sua semântica ambiental. A intensidade da faixa é baixa, e controlada, podendo o ouvinte, perder a atenção daquilo que está a ouvir. No final, um som abrupto faz-se ouvir, captando novamente a atenção do indivíduo (descontinuidade radical).
+Os sons em geral, dão ênfase ao ambiente em que eles se encontram, deixando quem está a ouvir envolver-se no ambiente. E por isso é uma semântica ambiental.
+</p><br>
+
+<h1>Som3</h1>
+<p>No princípio da faixa, a semântica que prevalece é a informacional. Quem ouve percebe, à partida, aquilo que é dito e consegue, a partir disso, associar causas e significados à audição. Durante a audição, o som de um jornal a ser folheado preenche a cena, bem como o pacote do açúcar do café e, no final, existe um som, um tilintar de uma colher numa caneca de café, que ajuda a completar o todo da faixa, que se pode caracterizar como semântica ambiental. De forma geral, a peça é uma semântica expressiva, pois todos os elementos que a compõem, dão uma sensação de espaço fechado ao ouvinte.
+De forma geral, o som é contínuo estável, em certas partes, progressivo, embora de vez em quando possa ter algumas nuances de descontinuidade ambivalente, como no cado da caneca de café e do teclado de um computador.
+</p><br>
+
+<h1>Som4</h1>
+<p>Esta faixa poderá ser caracterizada de duas formas distintas, contínua e descontínua. 
+O que prevalece na faixa, é a sua descontinuidade ambivalente de intensidade moderada, pois não existem sons repentinos, mas sons sucessivos que vão entoando mais alto numas alturas, mais baixo noutras, mas nunca de forma abrupta. A semântica é expressiva, pois os sons da água a correr e do plástico, dão o foco à cena, tornam-se plano principal.
+A continuidade desta faixa, revela-se num som de fundo, que parece como que um instrumento de sopro, e por essa mesma razão, a semântica é a informacional, pois quem ouve a faixa entende à partida que se trata de um instrumento musical.
+</p><br>
+
+<h1>Som5</h1>
+<p>Para este segmento, a sua caracterização passaria pela descontinuidade ambivalente. Existem vários sons que entoam de repente com maior intensidade, mas relativamente moderada, para chamar à atenção do indivíduo. A semântica seria expressiva, pois todos os sons desta faixa, querem-se fazer ouvir, ou seja, todos eles assumem o protagonismo da peça, tornando-a um pouco experimental. Também poderá ser classificada de ambiental, pois dá a sensação a quem ouve, de que se trata de um ambiente ao ar livre.</p><br>
+
+<h1>Som6</h1>
+<p>Descontinuidade ambivalente assumida. O som do corrimão assume o protagonismo da cena, ou seja, semântica expressiva e, a intensidade do mesmo, apresenta níveis altos. Em certos pontos da cena, existem altos que quase se confundem com descontinuidade radical, mas que por breves instantes, não chegam a ocupar essa categoria.
+Semântica ambiental para os outros sons que acabam por completar o principal, dando-lhe uma noção de espaço, para que este se integre e que não seja apenas um som completamente desenquadrado.
+</p><br>
+
+<h1>Som7</h1>
+<p>Semântica ambiental e continuidade estável caracterizam principalmente esta faixa. O som dos pássaros começa por passar despercebido e acaba por se fazer ouvir melhor no final. O som inicial também assume este papel.
+Entre a faixa um som descontínuo ambivalente (som de um tapete a raspar), toma conta da cena por uns breves segundos acabando por desaparecer, a semântica é expressiva.
+</p></div>
+
+</body>
+
+
+</html>
